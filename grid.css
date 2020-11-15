@@ -1,0 +1,40 @@
+/* GRID PINCIPAL */
+/* .container div{
+    border: 1px solid red;
+} */
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 0px 1fr;
+    grid-template-rows: 110px 1fr;
+    grid-template-areas:"logo input-user"
+                        ". films-data";  
+}
+
+.logo{
+    grid-area: logo;
+}
+.input-user{
+    grid-area: input-user;
+}
+.nav-left{
+    grid-area: nav-left;
+    height: 100%;
+}
+.films{
+    grid-area: films;
+}
+
+/* SUB-GRID - FILMS */
+
+.films{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

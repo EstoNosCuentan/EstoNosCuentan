@@ -1,0 +1,236 @@
+:root{
+    /* Color */
+    --nav-bcolor:#FF7171;
+    --body-color:#FFAA71;
+    --body-color:#6E6D6D;
+    --body-color:#ECECEC;
+    --body-color:#000000;
+    /* Tipografía */
+    /* font-family: 'Anton', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Teko', sans-serif; */
+    /* Espaciado */
+}
+
+ /* MAIN */
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.1px;
+}
+
+.container2{
+    background-color: red;
+}
+
+.logo,
+.input-user{
+    background-color: #000000;
+}
+
+.nav-left{
+    background-color: #FFA580;
+}
+
+.films{
+    background-color: #eeeeee;
+}
+
+.esto{
+    text-decoration: none;
+}
+
+/* LOGO */
+
+.logo{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    margin-right: 125px;
+}
+
+.logo h1{
+    font-family: 'Sansita Swashed', cursive, sans-serif;
+    margin: 13px 5px;
+    padding: 0px;
+    font-size: 30px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.logo img{
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    transform: rotate(-15deg);
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* INPUT - BUTTON - USER  */
+.input-user{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_options{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    width: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_options a{
+    color: #ECECEC;
+}
+
+
+.social{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social a{
+    filter: invert(96%) sepia(2%) saturate(1%) hue-rotate(338deg) brightness(116%) contrast(100%);
+    padding-right: 20px;
+}
+li {
+    list-style-type: none;
+}
+
+/* NAV LEFT */
+
+.icon {
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+}
+
+.icon h2{
+    margin-top: 5px;
+}
+
+/* FILMS */
+
+.tip{
+    background-color: tomato;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tip h2{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px auto;
+}
+
+.close_tip{
+    margin: auto 0;
+    padding-right: 10px;
+}
+
+.close_tip img{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.films{
+    justify-items: center;
+    align-items: center;
+}
+
+.link_historias{
+    text-decoration:none
+}
+
+.historias{
+    display: flex;
+    justify-content: center;
+}
+
+.historias img{
+    margin: 30px 20px;
+    width: 800px;
+}
+
+.mov img{
+    width: 500px;
+    height: 500px;
+}
+
+.movies{
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+.movies img{
+    vertical-align: top;
+}
+
+.sin{
+    width: 500px;
+    height: 500px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.sin-s{
+    color: white;
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.sin-s:hover{
+    color: rgb(253, 27, 27);
+    cursor: pointer;
+}
+
+.movies:hover .sin{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
